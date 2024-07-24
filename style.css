@@ -1,0 +1,124 @@
+*{
+    margin:0px;
+    padding:0px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight:lighter;
+}
+html, body{
+    height:100%;
+    width:100%;
+    background-color: #fff;
+    display: flex;
+}
+img{
+    color:white;
+    height:23px;
+    width:23px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+#insta-logo{
+    height:40px;
+    width:40px;
+    margin-top: 50px;
+    margin-left: 40px;
+}
+
+.sidebar{
+    height:632px;
+    width:150px;
+    background-color: #ffffff;
+    padding-left: 15px;
+    border-right: 1px solid rgb(198, 198, 198);  
+}
+#more{
+    margin-left: 0px;
+    margin-top: 180px;
+    height:23px;
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+}
+.home, .search, .create, .messenger, .videoChat{
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    margin-top: 25px;
+    margin-left: 0px;
+}
+.home{
+    margin-top: 70px;
+}
+h5{
+    cursor: pointer;
+}
+.mainbar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.topbar{
+    display: flex;
+    justify-content:start;
+    align-items: center; 
+    /* padding-left: 0px;
+    margin-top: 0px; */
+    margin-bottom: 10px;
+    font-size: 12px;
+}
+#dot{
+    margin-left: 5px;
+}
+#postTime{
+    margin-left: 5px;
+}
+.dots{
+    font-size: 18px;
+    margin-left: 162px;
+    cursor: pointer;
+    /* border:0.5px solid black; */
+}
+#myPic{
+    border-radius: 20px;
+}
+.pic{
+    cursor: pointer;
+}
+#image{
+    height:500px;
+    width:340px;
+    filter:brightness(1.1);
+    border-radius: 10px;
+    cursor: pointer;
+}
+.post{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
+    /* align-items: center; */
+    margin-left: 400px;
+}
+.botbar{
+    margin-top: 4px;
+    display: flex;
+    align-items: center;
+    font-size:24px;
+}
+.botbar #big-heart{
+    font-size: 0px;
+    color:rgb(255, 255, 255);
+    position: absolute;
+    top:40%;
+    left:34%;
+    opacity: 0%;
+    cursor: pointer;
+}
+#comment{
+    margin-left: 5px;
+}
+#save{
+    height:23px;
+    width: 25px;
+    margin-left: 260px;
+}
